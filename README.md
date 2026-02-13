@@ -4,6 +4,7 @@
 
 ## 📸 Screenshots
 
+<img width="2878" height="1792" alt="screenshot_20260213_153929" src="https://github.com/user-attachments/assets/7af8c0dd-1963-40d6-b32d-10c5b6fb617c" />
 
 
 ---
@@ -84,4 +85,4 @@ Ecco alcuni dei comandi rapidi impostati:
 
 ---
 
-**Creato con ❤️ da [MS-0x404**](https://www.google.com/search?q=https://github.com/MS-0x404)
+**Creato con ❤️ da [MS-0x404](https://www.google.com/search?q=https://github.com/MS-0x404)**
