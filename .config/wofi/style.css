@@ -1,0 +1,25 @@
+window {
+    margin: 0px;
+    border: 2px solid #00ffff; /* Bordo Ciano */
+    background-color: rgba(0, 0, 0, 0.8); /* Sfondo Nero Trasparente */
+    border-radius: 15px;
+    font-family: "JetBrainsMono Nerd Font";
+}
+
+#input {
+    margin: 5px;
+    border: none;
+    color: #ffffff;
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+#inner-box {
+    margin: 5px;
+    color: #ffffff;
+}
+
+#entry:selected {
+    background-color: #00ffff;
+    color: #000000;
+    border-radius: 10px;
+}

@@ -1,0 +1,38 @@
+[global]
+    # Posizione sullo schermo
+    origin = top-right
+    offset = 10x10
+    
+    # Dimensioni
+    width = 300
+    height = 110
+    notification_limit = 5
+    
+    # Estetica
+    font = JetBrains Mono Nerd Font 10
+    corner_radius = 10
+    padding = 8
+    horizontal_padding = 8
+    frame_width = 2
+    separator_color = frame
+
+
+[urgency_low]
+    background = "#1e1e2e"
+    foreground = "#cdd6f4"
+    frame_color = "#89b4fa"
+    timeout = 5
+
+[urgency_normal]
+    background = "#1e1e2e"
+    foreground = "#cdd6f4"
+    frame_color = "#cba6f7"
+    timeout = 10
+
+[urgency_critical]
+    background = "#1e1e2e"
+    foreground = "#cdd6f4"
+    frame_color = "#f38ba8"
+    timeout = 0 # Non sparisce finché non la chiudi
+
+

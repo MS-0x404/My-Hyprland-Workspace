@@ -1,0 +1,68 @@
+{
+    "layer": "top",
+    "position": "top",
+    "margin-top": 5,
+    "margin-left": 10,
+    "margin-right": 10,
+    "height": 32,
+    "modules-left": ["custom/recorder", "clock"],
+    "modules-center": ["hyprland/workspaces"],
+    "modules-right": ["mpris", "tray", "pulseaudio", "battery", "custom/power"],
+
+    "hyprland/workspaces": {
+        "format": "{icon}",
+        "on-click": "activate"
+    },
+
+    "clock": {
+        "format": "{:%d %b, %H:%M}  ",
+        "tooltip-format": "<big>{:%Y %B}</big>\n<tt><small>{calendar}</small></tt>"
+    },
+
+    "battery": {
+        "states": { "warning": 30, "critical": 15 },
+        "format": "{capacity}% {icon}",
+        "format-icons": ["", "", "", "", ""]
+    },
+
+    "network": {
+        "format-wifi": "",
+        "format-ethernet": "",
+        "format-disconnected": "⚠",
+        "tooltip-format": "{essid} ({signalStrength}%)",
+        "on-click": "nm-connection-editor"
+    },
+
+    "pulseaudio": {
+        "format": "{volume}% {icon}",
+        "format-icons": { "default": ["", "", ""] }
+    },
+
+    "mpris": {
+        "format": "{player_icon} {artist} - {title}",
+        "format-paused": "{status_icon} <i>{artist} - {title}</i>",
+        "player-icons": {
+            "default": "▶",
+            "spotify": ""
+        },
+        "status-icons": {
+            "paused": ""
+        },
+        "max-length": 40
+    },
+
+    "custom/power": {
+        "format": "⏻",
+        "on-click": "~/.config/rofi/powermenu.sh",
+        "tooltip": false
+    },
+
+    "custom/recorder": {
+        "exec": "pgrep -x wf-recorder || pgrep -x gpu-screen-recorder",
+        "interval": 1,
+        "format": "<span color='#ff0000'>●</span>",
+        "tooltip": false,
+        "return-type": "string"
+    }
+
+}
