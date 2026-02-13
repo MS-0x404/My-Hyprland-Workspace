@@ -26,12 +26,12 @@ Assicurati di avere installato i seguenti pacchetti (nomi basati su Arch Linux):
 
 | Pacchetto | Descrizione |
 | --- | --- |
-| `hyprland` | Il cuore del sistema |
-| `waybar` | Barra di stato superiore |
-| `kitty` | Terminale principale |
-| `rofi` | Menu delle applicazioni |
-| `dunst` | Demone di notifica |
-| `xdg-desktop-portal-hyprland` | Per lo screen sharing e integrazione |
+| `hyprland` |
+| `waybar` |
+| `kitty` |
+| `rofi` |
+| `dunst` |
+| `xdg-desktop-portal-hyprland` |
 
 ---
 
