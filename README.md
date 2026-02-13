@@ -24,8 +24,8 @@
 
 Assicurati di avere installato i seguenti pacchetti (nomi basati su Arch Linux):
 
-| Pacchetto | Descrizione |
-| --- | --- |
+| Pacchetto |
+| --- |
 | `hyprland` |
 | `waybar` |
 | `kitty` |
